@@ -1,0 +1,52 @@
+{
+    "default_model": "RealVisXL.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            "Hyper-SDXL-4steps-lora.safetensors",
+            1.0
+        ],
+        [
+            "Hand-XL.safetensors",
+            0.5
+        ],
+        [
+            "crosshandbra.safetensors",
+            1.0
+        ],
+        [
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 4.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "watermark, signature, username, normal quality, jpeg artifacts, low quality, worst quality, cartoon, 3D, disfigured, anime, manga, unrealistic, saturated, high contrast, big nose, painting, drawing, sketch,render, CG, bad, art, deformed, fewer digits,extra limbs, extra legs, weird, blurry, cropped, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn, hands, poorly drawn face, mutation, ugly, bad, anatomy, bad proportions, extra limbs, clone, clone-faced, cross proportions, missing arms, malformed limbs, missing legs, mutated, hands, fused fingers, too many fingers, photo shop, video game, ugly, tiling, cross-eye, mutation of eyes, long neck, B&W",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ],
+    "default_aspect_ratio": "1024*1024",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "RealVisXL.safetensors": "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "crosshandbra.safetensors": "https://huggingface.co/MarkBW/handbra-xl/resolve/main/crosshandbra_SDXL.safetensors",
+        "Hand-XL.safetensors": "https://huggingface.co/LengXuXu/Hand_XL/resolve/main/Perfect%20Hands%20v2.safetensors",
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+        "Hyper-SDXL-4steps-lora.safetensors": "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-4steps-lora.safetensors"
+    },
+    "previous_default_models": ["RealVisXL.safetensors"]
+}
